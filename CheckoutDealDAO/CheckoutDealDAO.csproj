@@ -55,10 +55,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entities\User.cs" />
+    <Compile Include="Models\DAOEmployee.cs" />
+    <Compile Include="Models\DealContext.cs" />
+    <Compile Include="Models\GlobalSettings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Models\" />
+    <Folder Include="Data\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
